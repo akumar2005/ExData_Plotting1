@@ -13,7 +13,7 @@ dataFile <- "household_power_consumption.txt"
 #Load the dataset into data frame
 data <- read.table(dataFile, header=TRUE, sep=";")
 
-# Subset the data for the two dates of interest
+# Subset the data for the two dates needed
 dataSubset <- data[data$Date=="1/2/2007" | data$Date=="2/2/2007",]
 
 # Convert columns (3-9) to numeric
