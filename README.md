@@ -112,3 +112,9 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+
+## Instructions for generating plots
+1. Download the scripts (LoadData.R, plot1.R, plot2.R, plot3.R, plot4.R) to some directory;
+2. source("LoadData.R") will download the zipped data file and extract the dataset 
+   and save in the working area.
+3. The scipts plot1.R, plot2.R, plot3.R and plot4.R generates and saves png files.
